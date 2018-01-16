@@ -4,7 +4,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'My portfolio site in Github Pages.' }
+      { hid: 'description', name: 'description', content: 'My portfolio site in Github Pages.' },
+      { hid: 'og:image' , property: 'og:image', conent: "https://raw.githubusercontent.com/miyachik/Portfolio/7ab66014d710fbb10588c1b52d464cb5960dbd16/static/prof.png"}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
