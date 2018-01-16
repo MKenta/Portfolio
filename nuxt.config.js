@@ -13,6 +13,7 @@ module.exports = {
   },
   loading: { color: '#3B8070' },
   build: {
+    vendor: ['livephotoskit'],
     publicPath: "https://miyachik.github.io/Portfolio/",
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
