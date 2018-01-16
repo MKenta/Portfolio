@@ -12,7 +12,7 @@
       <h2 class="subtitle">
         Ohter
       </h2>
-      <router-link to="/live_photos"> Live Photos </router-link>
+      <livePhoto/>
     </div>
   </section>
 </template>
@@ -20,11 +20,13 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import Social from '~/components/Social.vue'
+import LivePhoto from '~/components/LivePhoto.vue'
 
 export default {
   components: {
     Logo,
-    Social
+    Social,
+    LivePhoto
   }
 }
 </script>
