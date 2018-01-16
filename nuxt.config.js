@@ -10,7 +10,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'My portfolio site in Github Pages.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
     ]
   },
   /*
@@ -24,6 +24,8 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
+
+    publicPath: "https://miyachik.github.io/Portfolio/",
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
@@ -34,5 +36,5 @@ module.exports = {
         })
       }
     }
-  }
+  },
 }
