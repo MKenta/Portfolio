@@ -5,7 +5,14 @@
       <h1 class="title">
         miyachik
       </h1>
+      <h2 class="subtitle">
+        Social
+      </h2>
       <social/>
+      <h2 class="subtitle">
+        Ohter
+      </h2>
+      <router-link to="/live_photos"> Live Photos </router-link>
     </div>
   </section>
 </template>

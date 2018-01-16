@@ -1,7 +1,4 @@
 module.exports = {
-  /*
-  ** Headers of the page
-  */
   head: {
     title: 'portfolio',
     meta: [
@@ -13,18 +10,8 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
     ]
   },
-  /*
-  ** Customize the progress bar color
-  */
   loading: { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
   build: {
-    /*
-    ** Run ESLint on save
-    */
-
     publicPath: "https://miyachik.github.io/Portfolio/",
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
