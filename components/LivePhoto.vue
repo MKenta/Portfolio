@@ -15,6 +15,7 @@ if (process.browser) {
   player.photoWidth = 1334 / 2 + 'px'
   player.style.height = 750 / 2 + 'px'
   player.style.width = 1334 / 2 + 'px'
+  console.log("livephotoskit is loaded.")
 }
 </script>
 
