@@ -15,6 +15,7 @@ module.exports = {
   build: {
     vendor: ['livephotoskit'],
     publicPath: "https://miyachik.github.io/Portfolio/",
+    ssr: false,
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
