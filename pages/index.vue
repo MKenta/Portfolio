@@ -28,7 +28,7 @@ export default {
     Social,
     LivePhoto
   },
-  created () {
+  mounted () {
     if (process.browser) {
       var LivePhotosKit = require('livephotoskit')
       var player = new LivePhotosKit.Player(document.getElementsByClassName('live-photo')[0])
