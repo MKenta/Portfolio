@@ -12,6 +12,11 @@ module.exports = {
     ]
   },
   loading: { color: '#3B8070' },
+  generate: {
+    minify: {
+      minifyJS: false
+    }
+  },
   build: {
     vendor: ['livephotoskit'],
     publicPath: "https://miyachik.github.io/Portfolio/",
